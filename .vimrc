@@ -9,15 +9,12 @@ set tabstop=4 softtabstop=4
 " >> command width
 set shiftwidth=4
 
-" Change tab to spaces
-" set expandtab
-
 " Better indenting
 set smartindent
 
 " For numbers
-set nu
-" set number
+set number
+set relativenumber
 
 " No wrap in end of line
 " set nowrap
@@ -37,6 +34,17 @@ set undofile
 
 " Incremental search, without enter
 set incsearch
+
+" Number of context lines above and below the cursor
+set scrolloff=8
+
+" The lenght of time Vim waits after you stop typing
+" before it triggers the plugin
+set updatetime=750
+
+" Set a vertical line to 'limit' the space
+set colorcolumn=80
+highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 " Rights to the clipboard native system
 " Works in wsl and tmux
@@ -67,7 +75,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 
 " Autocomplete
-" Maybe require additional configuration
+" Require additional configuration
 " Install cmake build-essential and python-dev
 " Run ~/.vimrc/plugged/YouCompleteMe/install.py
 Plug 'Valloric/YouCompleteMe'
