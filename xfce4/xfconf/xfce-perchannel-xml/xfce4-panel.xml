@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=1280;y=1066"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="18"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="1"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="8"/>
+      </property>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="enable-struts" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager"/>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="spotify-client"/>
+        <value type="string" value="QOpenVPN"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="TeamViewer"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="Stremio"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (47%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (56%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (46%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (80%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (93%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (88%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (81%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (91%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (43%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (52%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (83%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (70%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (74%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (73%)"/>
+        <value type="string" value="configuring wi-fi network connection “fonsa”…"/>
+        <value type="string" value="wi-fi network connection “claro_5gbe2f45” active: claro_5gbe2f45 (70%)"/>
+        <value type="string" value="wi-fi network connection “claro_5gbe2f45” active: claro_5gbe2f45 (52%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (43%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (55%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (60%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (55%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (63%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (53%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (50%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (54%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (51%)"/>
+        <value type="string" value="wi-fi network connection “belipe” active: belipe (59%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (70%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (69%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (71%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (59%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (63%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (61%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (68%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (67%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (58%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (66%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (45%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (79%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (37%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (38%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (65%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (44%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (41%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (51%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (62%)"/>
+        <value type="string" value="configuring wi-fi network connection “rep_100c_2020”…"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (65%)"/>
+        <value type="string" value="wi-fi network connection “rep_100c_2020” active: rep_100c_2020 (52%)"/>
+        <value type="string" value="wi-fi network connection “fonsa” active: fonsa (78%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (48%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (61%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (54%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (50%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (49%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (53%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (58%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (63%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (56%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_d571_5g” active: tp-link_d571_5g (62%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_d571_5g” active: tp-link_d571_5g (46%)"/>
+        <value type="string" value="wi-fi network connection “tp-link_d571_5g” active: tp-link_d571_5g (58%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (57%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (40%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (42%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (66%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (62%)"/>
+        <value type="string" value="stremio"/>
+        <value type="string" value="requesting a wi-fi network address for “wifi_ufsj”…"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (39%)"/>
+        <value type="string" value="configuring wi-fi network connection “tp-link_d571_5g”…"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (35%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (59%)"/>
+        <value type="string" value="wi-fi network connection “wifi_ufsj” active: wifi_ufsj (52%)"/>
+        <value type="string" value="anydesk"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+      </property>
+    </property>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="tooltip-format" type="string" value="%Y-%m-%d %R:%S"/>
+      <property name="show-seconds" type="bool" value="true"/>
+      <property name="flash-separators" type="bool" value="false"/>
+      <property name="digital-date-format" type="string" value="%Y-%m-%d %R:%S"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-format" type="string" value="%Y-%m-%d %R:%S"/>
+      <property name="digital-time-font" type="string" value="DejaVu Sans Bold Semi-Condensed 9"/>
+      <property name="timezone" type="string" value=""/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="showdesktop"/>
+    <property name="plugin-7" type="string" value="whiskermenu">
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="command-switchuser" type="string" value="dm-tool switch-to-greeter"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="pavucontrol.desktop"/>
+        <value type="string" value="xfce-display-settings.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="chromium.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+        <value type="string" value="DataGrip.desktop"/>
+        <value type="string" value="chromium.desktop"/>
+        <value type="string" value="org.telegram.desktop.desktop"/>
+        <value type="string" value="smartcode-stremio.desktop"/>
+        <value type="string" value="pavucontrol.desktop"/>
+        <value type="string" value="io.dbeaver.DBeaver.desktop"/>
+        <value type="string" value="com.obsproject.Studio.desktop"/>
+        <value type="string" value="firefox.desktop"/>
+        <value type="string" value="com.teamviewer.TeamViewer.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1026;chromium.instance1027;chromium.instance1028;chromium.instance1032;chromium.instance10330;chromium.instance1034;chromium.instance1042;chromium.instance1043;chromium.instance1044;chromium.instance1045;chromium.instance1046;chromium.instance1047;chromium.instance1048;chromium.instance1050;chromium.instance1051;chromium.instance1052;chromium.instance1055;chromium.instance1058;chromium.instance1059;chromium.instance1060;chromium.instance1061;chromium.instance1063;chromium.instance1065;chromium.instance1067;chromium.instance1070;chromium.instance1071;chromium.instance1073;chromium.instance1074;chromium.instance1075;chromium.instance1076;chromium.instance1077;chromium.instance1080;chromium.instance1082;chromium.instance1084;chromium.instance1085;chromium.instance1086;chromium.instance1087;chromium.instance1089;chromium.instance1092;chromium.instance1094;chromium.instance1098;chromium.instance1104;chromium.instance1105;chromium.instance1107;chromium.instance1108;chromium.instance1113;chromium.instance1114;chromium.instance1115;chromium.instance1117;chromium.instance1119;chromium.instance1121;chromium.instance1127;chromium.instance1128;chromium.instance1144;chromium.instance1145;chromium.instance1151;chromium.instance1153;chromium.instance1155;chromium.instance1158;chromium.instance1160;chromium.instance1165;chromium.instance1169;chromium.instance1172;chromium.instance1173;chromium.instance1176;chromium.instance1187;chromium.instance1189;chromium.instance1190;chromium.instance1192;chromium.instance1196;chromium.instance1211;chromium.instance1217;chromium.instance1224;chromium.instance12259;chromium.instance1228;chromium.instance1233;chromium.instance1243;chromium.instance1246;chromium.instance1251;chromium.instance1252;chromium.instance127616;chromium.instance12790;chromium.instance1293;chromium.instance1415;chromium.instance1447;chromium.instance1455;chromium.instance1465;chromium.instance1466;chromium.instance1480;chromium.instance1494;chromium.instance1512;chromium.instance1524;chromium.instance1530;chromium.instance1563;chromium.instance1568;chromium.instance1574;chromium.instance1581;chromium.instance1583;chromium.instance1590;chromium.instance1622;chromium.instance1634;chromium.instance1645;chromium.instance1670;chromium.instance1680;chromium.instance1693;chromium.instance1706;chromium.instance1708;chromium.instance1726;chromium.instance1728;chromium.instance1740;chromium.instance1743;chromium.instance1781;chromium.instance1788;chromium.instance1831;chromium.instance2025;chromium.instance2031;chromium.instance2154;chromium.instance2223;chromium.instance2241;chromium.instance2245;chromium.instance2246;chromium.instance2263;chromium.instance2366;chromium.instance2380;chromium.instance2411;chromium.instance2423;chromium.instance2526;chromium.instance3287;chromium.instance3290;chromium.instance3391;chromium.instance3582;chromium.instance3894;chromium.instance3966;chromium.instance5569;chromium.instance5691;chromium.instance58736;chromium.instance6266;chromium.instance64258;chromium.instance7576;chromium.instance8611;chromium.instance900;chromium.instance9769;firefox.instance10725;firefox.instance1284;firefox.instance1335;firefox.instance1414;firefox.instance1445;firefox.instance1453;firefox.instance1483;firefox.instance1502;firefox.instance1532;firefox.instance1545;firefox.instance1599;firefox.instance1856;firefox.instance1952;firefox.instance2014;firefox.instance2447;firefox.instance2729;firefox.instance3364;firefox.instance38058;firefox.instance41818;firefox.instance4505;firefox.instance4576;firefox.instance4678;firefox.instance49160;firefox.instance49905;firefox.instance6454;firefox.instance7907;firefox.instance945;firefox.instance999;spotify"/>
+      <property name="known-players" type="string" value="Chromium;chromium.instance161948;chromium.instance842;firefox;Spotify;spotify"/>
+    </property>
+  </property>
+</channel>
