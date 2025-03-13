@@ -33,7 +33,7 @@ return require('packer').startup(function(use)
 
 	use 'nvim-treesitter/nvim-treesitter'
 
-	use 'lewis6991/gitsigns.nvim'
+	-- use 'lewis6991/gitsigns.nvim'
 
 	use 'numToStr/Comment.nvim'
 
@@ -65,5 +65,15 @@ return require('packer').startup(function(use)
 	use 'L3MON4D3/LuaSnip'
 	use 'rafamadriz/friendly-snippets'
 
+	use {
+		'akinsho/flutter-tools.nvim',
+		requires = {
+			'nvim-lua/plenary.nvim',
+			'stevearc/dressing.nvim', -- optional for vim.ui.select
+		},
+	}
+
 	-- use 'VonHeikemen/lsp-zero.nvim'
+
+	require("flutter-tools").setup {}
 end)

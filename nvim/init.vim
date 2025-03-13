@@ -36,7 +36,6 @@ au TermOpen * au <buffer> BufEnter,WinEnter redraw!
 " autocmd Filetype dart setlocal ts=2
 
 
-
 " The key to enter in the command mode
 let mapleader = " "
 
